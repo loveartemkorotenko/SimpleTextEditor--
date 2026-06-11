@@ -1,9 +1,10 @@
 //
 // Created by akims on 26.05.2026.
+#include "utils.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdbool.h>
+
 
 char * ReadText(FILE * source) {
     char temp[128];
@@ -31,3 +32,4 @@ char * ReadText(FILE * source) {
     }
     return mainBuffer;
 }
+
